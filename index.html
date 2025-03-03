@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Website</title>
+    <link rel="stylesheet" href="style.css">  
+    <style>
+        /* Add inline styles for the colors */
+        body.background-color {
+            background-color: #e0f7fa; /* Light blue */
+        }
+
+        nav.nav-color {
+            background-color: #0288d1; /* Blue */
+        }
+
+        .link-color {
+            color: white; /* White text color */
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        .link-color:hover {
+            color: #81d4fa; /* Light blue on hover */
+        }
+
+        h1.header-color {
+            color: #0277bd; /* Darker blue */
+        }
+
+        p.text-color {
+            color: #0288d1; /* Blue */
+        }
+
+        .resume-btn {
+            background-color: #039be5; /* Medium blue */
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        .resume-btn:hover {
+            background-color: #0288d1; /* Darker blue on hover */
+        }
+
+        .logout-btn {
+            background-color: #0288d1; /* Blue */
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .logout-btn:hover {
+            background-color: #039be5; /* Lighter blue on hover */
+        }
+    </style>
+</head>
+<body class="background-color">
+    <nav class="nav-color">
+        <a href="index.html" class="link-color">🏠 Home</a>
+        <a href="register.html" class="link-color">📝 Register</a>
+        <a href="login.html" class="link-color">🔑 Login</a>
+        <a href="exit.html" class="link-color">🚪 Exit</a>
+    </nav>
+    <h1 class="header-color">Welcome to My Website</h1>
+    <p class="text-color">Hi, I'm <div class="reshma"></div>. Explore my work and download my resume.</p> 
+    <a href="resume.pdf" target="_blank" class="resume-btn">📄 View Resume</a>
+    <br>
+    <button class="logout-btn" onclick="window.location.href='exit.html'">Logout</button>
+</body>
+</html>
